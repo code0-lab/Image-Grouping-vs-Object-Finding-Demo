@@ -65,7 +65,6 @@ YOLO ağırlığı (opsiyonel):
 - YOLO ağırlıkları:
   - `yolov8n.pt` zaten repoda; başka ağırlık kullanacaksanız dosyayı `app.py` ile aynı dizine koyun.
   - Alternatif: `ultralytics` ilk kullanımda `yolov8n.pt`’yi otomatik indirir.
-- Örnek veri: `Deneme resimleri/` klasörünü yerelde oluşturup içine `jpg/jpeg/png` görseller ekleyin (uygulama için zorunlu değil; yükleyiciyle kendi görsellerinizi seçebilirsiniz).
 - Streamlit yapılandırması (opsiyonel): `mkdir .streamlit` oluşturup gerekirse `config.toml` ekleyin; uygulama varsayılanlarla da çalışır.
 - `uploads/` (opsiyonel): Sunucu tarafı dosya saklama ihtiyacınız olursa klasörü yerelde oluşturun.
 - `.env` (opsiyonel): Şimdiki kod `.env` okumuyor; ileride gizli anahtarlar için `python-dotenv` veya ortam değişkenleri kullanabilirsiniz.
