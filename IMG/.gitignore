@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Environments
+.env
+.env.*
+.venv/
+.venv311/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & temps
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# ML weights (keep only yolov8n.pt)
+*.pt
+!yolov8n.pt
+*.onnx
+*.pth
+*.weights
+
+# Data samples
+Deneme resimleri/
+uploads/
